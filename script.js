@@ -55,7 +55,7 @@ function rendermoviesTwo(e) {
   html2 = '';
   for (let movie of moviesArray) {
     fetch(
-      `http://www.omdbapi.com/?t=${movie.Title}&page=2&apikey=c8b4f60e&plot`
+      `https://www.omdbapi.com/?t=${movie.Title}&page=2&apikey=c8b4f60e&plot`
     )
       .then(response => response.json())
       .then(data => {
@@ -148,7 +148,7 @@ const list = document.querySelector('.date');
 
 function bringtoLife() {
   fetch(
-    `http://www.omdbapi.com/?s=${inputEl.value}&page=2&apikey=c8b4f60e`
+    `https://www.omdbapi.com/?s=${inputEl.value}&page=2&apikey=c8b4f60e`
   ).then(response =>
     response.json().then(data => {
       console.log(data);
