@@ -27,7 +27,7 @@ body {
   background-position-y: -300px;
   align-items: center;
   justify-content: space-around;
-  background-image: url(./images/Picture1.jpg);
+  background-image: url(Picture1.jpg);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,7 +146,7 @@ input[type='text'] {
   margin: 0px 8px;
 }
 .butts {
-  background-image: url(./images/plus.svg);
+  background-image: url(plus.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 20px;
@@ -156,7 +156,7 @@ input[type='text'] {
   height: 20px;
 }
 .butts2 {
-  background-image: url(./images/minus.svg);
+  background-image: url(minus.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 20px;
