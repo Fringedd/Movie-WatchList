@@ -9,6 +9,8 @@ let html3 = '';
 let html2 = '';
 let count3 = 0;
 
+localStorage.setItem('myMoviess', JSON.stringify(myMoviess));
+
 const elements = document.getElementsByTagName('add-watch');
 const cloSee = document.getElementsByClassName('butts');
 function reply_click(click_id) {
